@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear publicación"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="12dp"
+
+        />
+
+    <EditText
+
+        android:id="@+id/userIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID del usuario"
+        android:inputType="number"
+        android:text="1"
+
+        />
+
+    <EditText
+
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título"
+        android:inputType="textCapSentences"
+        android:maxLines="2"
+
+        />
+
+    <EditText
+
+        android:id="@+id/bodyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contenido"
+        android:inputType="textCapSentences|textMultiLine"
+        android:minLines="4"
+        android:gravity="top"
+        android:layout_marginTop="8dp"
+
+        />
+
+    <Button
+
+        android:id="@+id/submitPostButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENVIAR PUBLICACIÓN"
+        android:layout_marginTop="20dp"
+
+        />
+
+</LinearLayout>
